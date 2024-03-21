@@ -6,13 +6,13 @@
 
 @keyframes gradient-animation {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
   50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
   100% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 }
 
@@ -21,7 +21,8 @@
 }
 
 .personal-img {
-  border-radius: 50px;
+  max-width: 100%;
+  height: auto;
 }
 
 .cards-text {
@@ -43,24 +44,21 @@ a:hover {
   background-color: aqua;
   color: azure;
   border-radius: 50px;
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
   background-size: 180% 180%;
   animation: gradient-animation 7s ease infinite;
 }
 
 #Second-pvt-pic {
-  border-radius: 50%; /* Changed to 50% to maintain a circular shape */
-  max-width: 100%; /* Ensures the image does not exceed its parent container's width */
-  height: auto; /* Allows the image to scale proportionally with its width */
+  border-radius: 50%;
 }
 
 @media (max-width: 768px) {
   /* Adjust styles for smaller screens */
   .container {
-      padding: 0 15px;
+    padding: 0 15px;
   }
 
   .personal-img {
-      border-radius: 25px; /* Reduced border-radius for smaller screens */
+    border-radius: 25px;
   }
 }
