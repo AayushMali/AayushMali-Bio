@@ -1,0 +1,73 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 300% 300%; /* Increased background size for better effect */
+  animation: gradient-animation 10s ease infinite; /* Increased animation duration for slower transition */
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#id-name,
+#element {
+  color: rgb(64, 224, 208);
+}
+
+.personal-img {
+  max-width: 100%; /* Ensures the image does not exceed its parent container's width */
+  height: auto; /* Allows the image to scale proportionally with its width */
+  border-radius: 53px; /* Ensures a circular shape */
+  display: block; /* Centers the image horizontally */
+ justify-content: center;
+ align-items: center;
+}
+
+.cards-text {
+  color: rgba(22, 7, 7, 0.671);
+}
+
+a {
+  border: 2px solid transparent;
+  color: #ffffff;
+  text-decoration: none;
+  transition: border-color 0.3s;
+}
+
+.Connect-main {
+  background-color: aqua;
+  color: azure;
+  border-radius: 50px;
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 300% 300%; /* Increased background size for better effect */
+  animation: gradient-animation 10s ease infinite; /* Increased animation duration for slower transition */
+  padding: 20px; /* Increased padding for better readability */
+}
+
+#Second-pvt-pic {
+  border-radius: 50%; /* Ensures a circular shape */
+  max-width: 100%; /* Ensures the image does not exceed its parent container's width */
+  height: auto; /* Allows the image to scale proportionally with its width */
+}
+
+@media (max-width: 768px) {
+  .personal-img {
+    max-width: 80%;
+    border-radius: 17%;
+    margin: 0px 59px;
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .gradient-background {
+    background-size: 100% 100%; /* Adjust background size for smaller screens */
+  }
+}

@@ -1,0 +1,19 @@
+html
+{
+    background-color: rgba(226, 43, 43, 0.144);
+}
+h1
+{
+    color: rgba(255, 255, 255, 0.993);
+    font-weight: lighter;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+}
+.head
+{
+    background-color: rgba(63, 58, 54, 0.514);
+    border-radius: 99px;
+}
