@@ -1,0 +1,75 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 300% 300%; 
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#id-name {
+  color: rgb(64, 224, 208);
+}
+#element {
+  color: rgb(0, 0, 0);
+}
+
+.personal-img {
+  max-width: 100%;
+  height: auto; 
+  border-radius: 53px; 
+  display: block; 
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-text {
+  color: rgba(22, 7, 7, 0.671);
+}
+
+a {
+  border: 2px solid transparent;
+  color: #ffffff;
+  text-decoration: none;
+  transition: border-color 0.3s;
+}
+
+.Connect-main {
+  background-color: aqua;
+  color: azure;
+  border-radius: 50px;
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 300% 300%; 
+  animation: gradient-animation 10s ease infinite; 
+  padding: 20px; 
+}
+
+#Second-pvt-pic {
+  border-radius: 50%; 
+  max-width: 100%; 
+  height: auto; 
+}
+
+@media (max-width: 768px) {
+  .personal-img {
+    max-width: 80%;
+    border-radius: 17%;
+    margin: 0px 59px;
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .gradient-background {
+    background-size: 100% 100%;
+  }
+}
